@@ -20,7 +20,8 @@
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
                 android:scaleType="fitXY"
-                android:src="@drawable/pixel_google" />
+                android:src="@drawable/pixel_google"
+                android:contentDescription="@string/todo" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -43,7 +44,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="32sp"
-                android:text="$735"
+                android:text="@string/_735"
                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="@dimen/activity_vertical_margin"
@@ -58,7 +59,9 @@
                 android:textSize="12sp"
                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
-                android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:textColor="@android:color/darker_gray"
+                />
 
 
             <TextView
@@ -78,7 +81,8 @@
                 android:textSize="12sp"
                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
-                android:layout_marginBottom="8dp"/>
+                android:layout_marginBottom="8dp"
+                android:textColor="@android:color/darker_gray"/>
 
 
             <TableLayout
@@ -99,8 +103,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="14sp"
-                        android:layout_marginRight="@dimen/activity_vertical_margin"
-                        android:text="Display"/>
+                        android:layout_marginEnd="@dimen/activity_vertical_margin"
+                        android:text="@string/display"
+                        android:textColor="@android:color/darker_gray"/>
 
 
                     <TextView
@@ -124,7 +129,8 @@
                         android:layout_height="wrap_content"
                         android:textSize="14sp"
                         android:layout_marginRight="@dimen/activity_vertical_margin"
-                        android:text="Size"/>
+                        android:text="Size"
+                        android:textColor="@android:color/darker_gray"/>
 
 
                     <TextView
@@ -148,7 +154,8 @@
                         android:layout_height="wrap_content"
                         android:textSize="14sp"
                         android:layout_marginRight="@dimen/activity_vertical_margin"
-                        android:text="Battery"/>
+                        android:text="Battery"
+                        android:textColor="@android:color/darker_gray"/>
 
 
                     <TextView
@@ -165,10 +172,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/dijual_oleh"
-                android:textSize="12sp"
+                android:textSize="18sp"
                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
-                android:layout_marginBottom="8dp"/>
+                android:layout_marginBottom="8dp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"/>
 
 
             <RelativeLayout
